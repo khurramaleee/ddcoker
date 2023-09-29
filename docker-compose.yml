@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  django:
+    image: djangodocker:0.0.1
+    build: .
+    ports:
+      - "8001:8001"
